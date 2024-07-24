@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
     public function test(){
-        dd(new TestEvent);
+        // dd(new TestEvent);
         event(new TestEvent);
 
     }
