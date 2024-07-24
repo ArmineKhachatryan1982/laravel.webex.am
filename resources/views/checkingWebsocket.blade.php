@@ -7,8 +7,8 @@
                 <title>Document</title>
             </head>
             <body>
-                {{-- @vite('resources/js/app.js') --}}
-                  <script src="{{ asset('resources/js/app.js') }}" ></script>
+                @vite('resources/js/app.js')
+                  {{-- <script src="{{ asset('resources/js/app.js') }}" ></script> --}}
                 <script>
                     setTimeout(()=>{
                         window.Echo.channel('testing')
