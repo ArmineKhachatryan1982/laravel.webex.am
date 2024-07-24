@@ -29,10 +29,14 @@ class TestEvent implements ShouldBroadcast
      *
      * @return array<int, \Illuminate\Broadcasting\Channel>
      */
-    public function broadcastOn(): array
+    public function broadcastOn()
     {
         return [
             new Channel('testing'),
         ];
+    }
+    public function broadcastAs(){
+        
+        return 'MyWebsocket';
     }
 }
