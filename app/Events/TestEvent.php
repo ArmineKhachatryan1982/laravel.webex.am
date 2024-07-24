@@ -35,8 +35,8 @@ class TestEvent implements ShouldBroadcast
             new Channel('testing'),
         ];
     }
-    public function broadcastAs(){
-        
-        return 'MyWebsocket';
-    }
+    // public function broadcastAs(){
+
+    //     return 'MyWebsocket';
+    // }
 }

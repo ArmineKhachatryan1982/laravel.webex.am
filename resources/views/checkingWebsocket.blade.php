@@ -12,7 +12,7 @@
                 <script>
                     setTimeout(()=>{
                         window.Echo.channel('testing')
-                        .listen('.MyWebsocket',(e) => {
+                        .listen('.App\\Events\\TestEvent',(e) => {
                             console.log(e)
                         })
 
